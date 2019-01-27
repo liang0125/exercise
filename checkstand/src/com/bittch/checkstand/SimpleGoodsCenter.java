@@ -12,7 +12,7 @@ public class SimpleGoodsCenter implements GoodsCenter {
 
     private final Map<String, Goods>goodsMap=new HashMap<>();
     //文件存储路径
-    private String path=System.getProperty("user.dir")+File.separator+"goods.txt";
+    private static String path=System.getProperty("user.dir")+File.separator+"goods.txt";
     @Override
     public void addGoods(Goods goodsInfo) {
         this.goodsMap.put(goodsInfo.getId(),goodsInfo);
@@ -64,7 +64,7 @@ public class SimpleGoodsCenter implements GoodsCenter {
         try (BufferedWriter Writer = new BufferedWriter(new FileWriter(file))) {
             for(Map.Entry<String,Goods> entry:goodsMap.entrySet()){
                 Goods goods=entry.getValue();
-                Writer.write(String.format("%s:%s:%.2f",goods.getId(),goods.getName(),goods.getPrice()));
+                Writer.write(String.format("%s:%s:%.2f\n",goods.getId(),goods.getName(),goods.getPrice()));
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -74,19 +74,24 @@ public class SimpleGoodsCenter implements GoodsCenter {
     @Override
     public void load() {
         File file=new File(path);
-        try(BufferedReader reader=new BufferedReader(new FileReader(file))){
-            for(Map.Entry<String,Goods> entry:this.goodsMap.entrySet()){
-                String line;
-                while((line=reader.readLine())!=null) {
-                    String[] st = line.split(":");
-                    if (st.length == 3) {
-                        Goods goods = new Goods(st[0], st[1], Double.parseDouble(st[2]));
-                        this.addGoods(goods);
+        if(file.exists()&&file.isFile()) {
+            try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        String[] st = line.split(":");
+                        if (st.length == 3) {
+                            String id=st[0];
+                            String name=st[1];
+                            Double price=Double.parseDouble(st[2]);
+                            this.goodsMap.put(id,new Goods(id,name,price));
+                        }
                     }
-                }
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        }catch (IOException e){
-            e.printStackTrace();
+        }
+        else{
+            System.out.println("请按照格式输入");
         }
     }
 }
