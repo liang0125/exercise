@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84a28354-bdc1-4fc4-9ef2-50c0df1ac251" name="Default" comment="" />
+    <list default="true" id="84a28354-bdc1-4fc4-9ef2-50c0df1ac251" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-room-client/target/classes/singleClient/SingleThreadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/target/classes/singleClient/SingleThreadClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/singleserver/SingleThreadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/singleserver/SingleThreadServer.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/chat-room-client/target/" />
@@ -15,11 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingleThreadServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingleThreadServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-138">
+              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1273#1785#0" expanded="true" />
+                <element signature="e#1784#1785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleThreadClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-67">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,14 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleThreadClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java">
+      <file leaf-file-name="SocketUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/SocketUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleChatroomSocketServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/SingleChatroomSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-278">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -48,14 +74,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/chat-room-client/pom.xml" />
         <option value="$PROJECT_DIR$/chat-room-server/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java" />
       </list>
     </option>
   </component>
@@ -96,67 +125,6 @@
               <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatroom" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chatroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleserver" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,7 +156,7 @@
   <component name="RunManager" selected="Application.SingleThreadClient">
     <configuration name="SingleThreadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleClient.SingleThreadClient" />
-      <module name="chatroomclient" />
+      <module name="chat-room-client" />
       <option name="PROGRAM_PARAMETERS" value="6667 127.0.0.1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -200,7 +168,7 @@
     </configuration>
     <configuration name="SingleThreadServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleserver.SingleThreadServer" />
-      <module name="chatroom" />
+      <module name="chat-room" />
       <option name="PROGRAM_PARAMETERS" value="6667" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -273,24 +241,33 @@
       <option name="presentableId" value="Default" />
       <updated>1550891055125</updated>
       <workItem from="1550891058415" duration="15671000" />
-      <workItem from="1550912210627" duration="210000" />
+      <workItem from="1550912210627" duration="10283000" />
     </task>
+    <task id="LOCAL-00001" summary="单线程聊天室0.0.1">
+      <created>1550912518965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550912518965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15881000" />
+    <option name="totallyTimeSpent" value="25954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32909605" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15677966" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16407356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17024128" />
@@ -306,11 +283,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909605" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单线程聊天室0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="单线程聊天室0.0.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java">
@@ -319,6 +299,8 @@
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1273#1785#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -368,22 +350,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="142">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/SingleChatroomSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/SocketUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/singleClient/SingleThreadClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleserver/SingleThreadServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="-138">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1273#1785#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
           </folding>
         </state>
       </provider>
