@@ -15,11 +15,6 @@ public class SingleThreadClient {
     public static void main(String[] args) {
         int port=6666;
         String host="127.0.0.1";
-        Thread thread=new Thread(new Runnable() {
-            public void run() {
-
-            }
-        });
         try {
             if(args.length>1){
                 port= Integer.parseInt(args[0]);
