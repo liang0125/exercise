@@ -8,8 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chat-room-client" />
         <module name="chat-room-server" />
-        <module name="chatroomclient" />
-        <module name="chatroomserver" />
       </profile>
     </annotationProcessing>
   </component>
