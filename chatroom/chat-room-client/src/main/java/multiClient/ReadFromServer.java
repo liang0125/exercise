@@ -8,9 +8,10 @@ import java.util.Scanner;
  * Author:lorrie
  * Create:2019/2/24
  */
+
+//从服务器读取消息
 public class ReadFromServer implements Runnable{
     private final Socket client;
-
     public ReadFromServer(Socket client) {
         this.client=client;
     }

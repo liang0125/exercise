@@ -14,10 +14,15 @@ import java.util.concurrent.Executors;
 //多线程服务端
 public class MultiThreadServer {
     public static void main(String[] args) {
+        int port=6666;
         //线程池调度
         ExecutorService executor= Executors.newFixedThreadPool(5);
+
         try {
-            ServerSocket serverSocket=new ServerSocket(6666);
+            if(args.length>0){
+                port=Integer.parseInt(args[0]);
+            }
+            ServerSocket serverSocket=new ServerSocket(port);
             System.out.println("Server are Waiting clients to connect...");
             while (true){
                 Socket client=serverSocket.accept();

@@ -6,6 +6,8 @@ import java.net.Socket;
  * Author:lorrie
  * Create:2019/2/25
  */
+
+//客户端的信息
 public class Clients {
     private int id;
     private String name;

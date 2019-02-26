@@ -11,13 +11,16 @@ import java.util.ArrayList;
  * Author:lorrie
  * Create:2019/2/26
  */
+
+
+//对数据库的操作
 public class ClientsDAO {
 
+    //按照姓名查找客户端
     public String search(String username){
         Connection conn=null;
         Statement stmt=null;
         ResultSet rs=null;
-
         try{
             conn = JDBCUtils.getConnection();
             stmt = conn.createStatement();
@@ -35,6 +38,7 @@ public class ClientsDAO {
         return null;
     }
 
+    //添加客户端
     public void add(String username){
         Connection connection=null;
         Statement statement=null;

@@ -10,8 +10,9 @@ import java.util.Scanner;
  * Author:lorrie
  * Create:2019/2/24
  */
-public class WriterToServer implements Runnable{
 
+//向服务器发送消息
+public class WriterToServer implements Runnable{
     private Socket client;
     public WriterToServer(Socket client) {
         this.client=client;
@@ -38,6 +39,8 @@ public class WriterToServer implements Runnable{
         }
 
     }
+
+    //菜单提示信息
     public void menu(){
         System.out.println("********      Welcome to chatroom         *******");
         System.out.println("*********  1.register        2.login      *******");
