@@ -13,33 +13,6 @@ import java.util.ArrayList;
  */
 public class ClientsDAO {
 
-    //显示所有当前在线用户
-    public ArrayList<Clients> displayAllClients() {
-        Connection connection = null;
-        Statement statement = null;
-        ResultSet resultSet = null;
-        ArrayList<Clients> list = new ArrayList<>();
-        try {
-            connection = JDBCUtils.getConnection();
-            statement = connection.createStatement();
-            String sql = "select * from allClients";
-            resultSet=statement.executeQuery(sql);
-
-            while (resultSet.next()){
-                Clients clients=new Clients();
-                clients.setId(Integer.parseInt(resultSet.getString("id")));
-                clients.setName(resultSet.getString("name"));
-                list.add(clients);
-            }
-            return list;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            JDBCUtils.closed(connection,resultSet,statement);
-        }
-        return null;
-    }
-
     public String search(String username){
         Connection conn=null;
         Statement stmt=null;
@@ -72,7 +45,7 @@ public class ClientsDAO {
             String sql = "INSERT INTO allclients (name) VALUES('"+username+"');";
             int num = statement.executeUpdate(sql);
             if(num>0){
-                System.out.println("发送成功");
+                System.out.println("send successful!");
             }
 
         }catch(Exception e){
@@ -82,26 +55,5 @@ public class ClientsDAO {
         }
 
     }
-
-    //用户下线
-    public void del(String delClient){
-        Connection conn=null;
-        Statement stmt=null;
-        ResultSet rs=null;
-        try{
-            conn = JDBCUtils.getConnection();
-            stmt = conn.createStatement();
-            String sql = "DELETE FROM mrooms WHERE name="+delClient;
-            int num = stmt.executeUpdate(sql);
-            if(num>0){
-                System.out.println("用户"+delClient+"下线");
-            }
-        }catch(Exception e){
-            e.printStackTrace();
-        }finally{
-            JDBCUtils.closed(conn,rs,stmt);
-        }
-    }
-
 
 }

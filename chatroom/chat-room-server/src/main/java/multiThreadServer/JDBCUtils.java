@@ -48,10 +48,11 @@ public class JDBCUtils {
             if(resultSet!=null){
                 try {
                     resultSet.close();
+                    resultSet=null;
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-                resultSet=null;
+
             }
             closed(connection,statement);
     }

@@ -18,7 +18,7 @@ public class MultiThreadServer {
         ExecutorService executor= Executors.newFixedThreadPool(5);
         try {
             ServerSocket serverSocket=new ServerSocket(6666);
-            System.out.println("等待客户端的连接...");
+            System.out.println("Server are Waiting clients to connect...");
             while (true){
                 Socket client=serverSocket.accept();
                 executor.submit(new ExecutorClient(client));

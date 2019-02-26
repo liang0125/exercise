@@ -39,12 +39,12 @@ public class WriterToServer implements Runnable{
 
     }
     public void menu(){
-        System.out.println("*************欢迎进入聊天室*****************");
-        System.out.println("*************1.注册    2.登录**************");
-        System.out.println("*************3.私聊    4.群聊**************");
+        System.out.println("********      Welcome to chatroom         *******");
+        System.out.println("*********  1.register        2.login      *******");
+        System.out.println("*********  3.private chat    4.group chat *******");
         System.out.println("*******************************************");
-        System.out.println("格式如下：(1和2：userName：liang    3. private:targetUserName:message   4.group:message)");
-        System.out.println("请输入：");
+        System.out.println("The format is following：(1和2：userName：liang    3. private:targetUserName:message   4.group:message)");
+        System.out.println("input：");
 
 
     }

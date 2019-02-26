@@ -70,7 +70,7 @@ public class ExecutorClient implements Runnable {
     //退出功能具体实现
     private void quit() {
         String userName = this.getCurrentClientName();
-        System.out.println("用户"+userName+this.currentClient.getRemoteSocketAddress()+"下线！！！");
+        System.out.println("The user"+userName+this.currentClient.getRemoteSocketAddress()+"off-line！！！");
         sendMessage(this.getCurrentClientName(), "bye!!!");
         try {
             this.currentClient.close();
@@ -83,7 +83,7 @@ public class ExecutorClient implements Runnable {
 
     //打印当前在线人数
     private void printCurrentClient() {
-        System.out.println("当前在线用户数：(" + ONLINE_USER.size() + ") 列表如下：");
+        System.out.println("Current number of online users：(" + ONLINE_USER.size() + ") the list is following：");
         for (String userName : ONLINE_USER.keySet()) {
             System.out.println(userName);
         }
@@ -118,13 +118,13 @@ public class ExecutorClient implements Runnable {
         //第一次注册
         if (flag == null) {
             clientsDAO.add(userName);
-            sendMessage(userName, "注册成功!!!");
-            System.out.println("用户" + userName + "加入聊天" + this.currentClient.getRemoteSocketAddress());
+            sendMessage(userName, "register success!!!");
+            System.out.println("The user" + userName + "join the chat" + this.currentClient.getRemoteSocketAddress());
         }
         //已经注册过的直接登录即可
         else {
-            sendMessage(userName, "登录成功!!!");
-            System.out.println("用户" + userName + "加入聊天" + this.currentClient.getRemoteSocketAddress());
+            sendMessage(userName, "login success!!!");
+            System.out.println("The user" + userName + "join the chat" + this.currentClient.getRemoteSocketAddress());
         }
         this.printCurrentClient();
     }
