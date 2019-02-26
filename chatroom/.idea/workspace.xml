@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e33054-a001-4513-87cd-22bac0b68a83" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chat-room-server/target/" />
@@ -129,14 +125,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiThreadClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultiThreadClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -176,7 +181,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.git.ignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" />
@@ -186,6 +190,7 @@
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -397,7 +402,7 @@
       <workItem from="1551081985258" duration="2081000" />
       <workItem from="1551095152832" duration="4199000" />
       <workItem from="1551099952709" duration="4364000" />
-      <workItem from="1551168799366" duration="11249000" />
+      <workItem from="1551168799366" duration="11489000" />
     </task>
     <task id="LOCAL-00001" summary="多线程聊天室0.0.0">
       <created>1551017232084</created>
@@ -427,15 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551182476231</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="多线程聊天室0.0.2&#10;数据库版本">
+      <created>1551182969820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551182969820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41380000" />
+    <option name="totallyTimeSpent" value="41620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -670,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.MD" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -780,11 +784,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
