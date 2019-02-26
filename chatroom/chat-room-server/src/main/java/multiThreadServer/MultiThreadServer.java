@@ -10,8 +10,11 @@ import java.util.concurrent.Executors;
  * Author:lorrie
  * Create:2019/2/24
  */
+
+//多线程服务端
 public class MultiThreadServer {
     public static void main(String[] args) {
+        //线程池调度
         ExecutorService executor= Executors.newFixedThreadPool(5);
         try {
             ServerSocket serverSocket=new ServerSocket(6666);

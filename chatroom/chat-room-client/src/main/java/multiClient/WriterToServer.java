@@ -24,7 +24,7 @@ public class WriterToServer implements Runnable{
             OutputStreamWriter outputClient=new OutputStreamWriter(outputStream);
             Scanner in=new Scanner(System.in);
             while (true){
-                System.out.println("请输入：");
+                menu();
                 String message=in.next();
                 outputClient.write(message+"\n");
                 outputClient.flush();
@@ -36,6 +36,15 @@ public class WriterToServer implements Runnable{
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+    }
+    public void menu(){
+        System.out.println("*************欢迎进入聊天室*****************");
+        System.out.println("*************1.注册    2.登录**************");
+        System.out.println("*************3.私聊    4.群聊**************");
+        System.out.println("*******************************************");
+        System.out.println("格式如下：(1和2：userName：liang    3. private:targetUserName:message   4.group:message)");
+        System.out.println("请输入：");
 
 
     }
