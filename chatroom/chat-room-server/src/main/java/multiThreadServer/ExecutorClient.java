@@ -103,7 +103,7 @@ public class ExecutorClient implements Runnable {
     private void privateChat(String targetUserName, String targetMessage) {
         String currentUserName = this.getCurrentClientName();
         if (targetUserName != null) {
-            sendMessage(targetUserName, currentUserName +"("+this.currentClient.getRemoteSocketAddress() +"):\n"+ targetMessage);
+            sendMessage(targetUserName, currentUserName +"("+this.currentClient.getRemoteSocketAddress() +"):"+ targetMessage);
         }
     }
 

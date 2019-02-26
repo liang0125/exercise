@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e33054-a001-4513-87cd-22bac0b68a83" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/chat-room-server/target/" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="MultiThreadServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="403">
               <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,7 +70,7 @@
       <file leaf-file-name="SingleThreadServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/singleserver/SingleThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="-704">
               <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutorClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExecutorClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1098">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="2090">
+              <caret line="105" column="109" selection-start-line="105" selection-start-column="109" selection-end-line="105" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -128,20 +128,11 @@
       <file leaf-file-name="MultiThreadClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -158,8 +149,8 @@
       <file leaf-file-name="WriterToServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -183,7 +174,6 @@
         <option value="$PROJECT_DIR$/.git.ignore" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java" />
@@ -191,6 +181,7 @@
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" />
       </list>
     </option>
   </component>
@@ -220,6 +211,41 @@
             <path>
               <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
               <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-room-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="multiClient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chat-room" type="b2602c69:ProjectViewProjectNode" />
@@ -272,6 +298,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="H:/mysql-connector-java-5.0.8.jar!/" />
@@ -299,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.clientB">
+  <component name="RunManager" selected="Application.clientC">
     <configuration name="JDBCUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiThreadServer.JDBCUtils" />
       <module name="chat-room-server" />
@@ -331,6 +358,11 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="clientB" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="multiClient.MultiThreadClient" />
+      <module name="chat-room-client" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="clientC" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="multiClient.MultiThreadClient" />
       <module name="chat-room-client" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -376,6 +408,7 @@
     <list>
       <item itemvalue="Application.clientA" />
       <item itemvalue="Application.clientB" />
+      <item itemvalue="Application.clientC" />
       <item itemvalue="Application.MultiThreadServer" />
       <item itemvalue="Application.JDBCUtils" />
     </list>
@@ -402,7 +435,7 @@
       <workItem from="1551081985258" duration="2081000" />
       <workItem from="1551095152832" duration="4199000" />
       <workItem from="1551099952709" duration="4364000" />
-      <workItem from="1551168799366" duration="11489000" />
+      <workItem from="1551168799366" duration="14899000" />
     </task>
     <task id="LOCAL-00001" summary="多线程聊天室0.0.0">
       <created>1551017232084</created>
@@ -439,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551182969820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="多线程聊天室0.0.2&#10;数据库版本">
+      <created>1551183113044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551183113044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41620000" />
+    <option name="totallyTimeSpent" value="45030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -456,10 +496,10 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.24186705" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42008486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57425743" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.28429985" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14879356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
       <window_info anchor="right" id="Database" order="4" weight="0.14879356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -710,20 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -731,37 +757,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/singleserver/SingleThreadServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1098">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -782,20 +777,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="-1210">
+          <caret line="318" column="13" selection-start-line="318" selection-start-column="13" selection-end-line="318" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/singleserver/SingleThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="105" column="109" selection-start-line="105" selection-start-column="109" selection-end-line="105" selection-end-column="109" />
         </state>
       </provider>
     </entry>
