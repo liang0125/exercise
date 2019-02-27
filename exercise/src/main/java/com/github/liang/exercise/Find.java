@@ -15,7 +15,7 @@ package com.github.liang.exercise;
  * 判断数组中是否含有该整数。
  *
  */
-public class Test {
+public class Find {
     public static void main(String[] args) {
 
         int[][] arr = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
