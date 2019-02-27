@@ -31,7 +31,7 @@
                         <addClasspath>true</addClasspath>
                         <useUniqueVersions>false</useUniqueVersions>
                         <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>singleClient.SingleThreadClient</mainClass>
+                        <mainClass>multiClient.MultiThreadClient</mainClass>
                     </manifest>
                 </archive>
             </configuration>
