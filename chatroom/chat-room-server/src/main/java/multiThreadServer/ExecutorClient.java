@@ -118,6 +118,7 @@ public class ExecutorClient implements Runnable {
         //第一次注册
         if (flag == null) {
             clientsDAO.add(userName);
+            System.out.println("数据上传成功");
             sendMessage(userName, "register success!!!");
             System.out.println("The user" + userName + "join the chat" + this.currentClient.getRemoteSocketAddress());
         }
