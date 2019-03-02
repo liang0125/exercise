@@ -28,40 +28,39 @@ public class ExecutorClient implements Runnable {
     public void run() {
         try {
             //接收数据
-            Scanner input = new Scanner(currentClient.getInputStream());
+            Scanner in = new Scanner(currentClient.getInputStream());
 
             while (true) {
-                String message = input.next();
-
-                //注册用户
-                if (message.startsWith("userName")) {
-                    String userName = message.split("\\:")[1];
-                    this.register(userName);
-                    continue;
+                String  select = in.next();
+                switch (select) {
+                    case "1":{//注册
+                        String message = in.next();
+                        String userName = message.split(" ")[0];
+                        this.register(userName);
+                        break;
+                    }
+                    case "2":{//私聊
+                        String message = in.next();
+                        String targetUser = message.split("\\:")[0];
+                        String targetMessage = message.split("\\:")[1];
+                        this.privateChat(targetUser, targetMessage);
+                        break;
+                    }
+                    case "3":{//群聊
+                        String message = in.next();
+                        this.groupChat(message);
+                        break;
+                    }
+                    case "4": {//退出
+                        this.quit();
+                        break;
+                    }
                 }
-
-                //私聊功能
-                if (message.startsWith("private")) {
-                    String targetUser = message.split("\\:")[1];
-                    String targetMessage = message.split("\\:")[2];
-                    this.privateChat(targetUser, targetMessage);
-                    continue;
-                }
-
-                //群聊功能
-                if (message.startsWith("group")) {
-                    String groupMessage = message.split("\\:")[1];
-                    this.groupChat(groupMessage);
-                    continue;
-                }
-
-                //退出功能
-                if ("bye".equals(message)) {
-                    this.quit();
+                   if (select.equals("4")){
                     break;
-                }
-            }
+                   }
 
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,7 +69,7 @@ public class ExecutorClient implements Runnable {
     //退出功能具体实现
     private void quit() {
         String userName = this.getCurrentClientName();
-        System.out.println("The user"+userName+this.currentClient.getRemoteSocketAddress()+"off-line！！！");
+        System.out.println("用户" + userName + this.currentClient.getRemoteSocketAddress() + "下线了！！！");
         sendMessage(this.getCurrentClientName(), "bye!!!");
         try {
             this.currentClient.close();
@@ -83,7 +82,7 @@ public class ExecutorClient implements Runnable {
 
     //打印当前在线人数
     private void printCurrentClient() {
-        System.out.println("Current number of online users：(" + ONLINE_USER.size() + ") the list is following：");
+        System.out.println("当前在线用户人数：(" + ONLINE_USER.size() + ") 列表如下：");
         for (String userName : ONLINE_USER.keySet()) {
             System.out.println(userName);
         }
@@ -94,7 +93,7 @@ public class ExecutorClient implements Runnable {
         String currentUserName = this.getCurrentClientName();
         for (Map.Entry<String, Socket> entry : ONLINE_USER.entrySet()) {
             if (!entry.getKey().equals(currentUserName)) {
-                sendMessage(entry.getKey(), currentUserName +"("+this.currentClient.getRemoteSocketAddress() +"):" + groupMessage);
+                sendMessage(entry.getKey(), currentUserName + "(" + this.currentClient.getRemoteSocketAddress() + "):" + groupMessage);
             }
         }
     }
@@ -103,8 +102,10 @@ public class ExecutorClient implements Runnable {
     private void privateChat(String targetUserName, String targetMessage) {
         String currentUserName = this.getCurrentClientName();
         if (targetUserName != null) {
-            sendMessage(targetUserName, currentUserName +"("+this.currentClient.getRemoteSocketAddress() +"):"+ targetMessage);
+            sendMessage(targetUserName, currentUserName + "(" + this.currentClient.getRemoteSocketAddress() + "):" + targetMessage);
+
         }
+        sendMessage(currentUserName,"发送成功");
     }
 
     //注册功能具体实现
@@ -119,13 +120,13 @@ public class ExecutorClient implements Runnable {
         if (flag == null) {
             clientsDAO.add(userName);
             System.out.println("数据上传成功");
-            sendMessage(userName, "register success!!!");
-            System.out.println("The user" + userName + "join the chat" + this.currentClient.getRemoteSocketAddress());
+            sendMessage(userName, "注册成功!!!");
+            System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());
         }
         //已经注册过的直接登录即可
         else {
-            sendMessage(userName, "login success!!!");
-            System.out.println("The user" + userName + "join the chat" + this.currentClient.getRemoteSocketAddress());
+            sendMessage(userName, "登录成功!!!");
+            System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());
         }
         this.printCurrentClient();
     }

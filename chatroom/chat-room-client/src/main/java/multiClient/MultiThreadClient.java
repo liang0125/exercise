@@ -20,7 +20,7 @@ public class MultiThreadClient {
                 port=Integer.parseInt(args[1]);
             }
             Socket client = new Socket(host, port);
-            System.out.println("connection success!!!");
+            System.out.println("连接成功 !!!");
             new Thread(new ReadFromServer(client)).start();
             new Thread(new WriterToServer(client)).start();
         } catch (IOException e) {
