@@ -33,14 +33,14 @@ public class WriterToServer implements Runnable{
                 outputClient.write(select+"\n");
                 outputClient.flush();
                     if(select.equals("1")){
-                        System.out.println("请输入用户名：");
+                        System.out.println("请输入用户名和密码，用:隔开：");
                         String message=in.next();
                         outputClient.write(message+"\n");
                         outputClient.flush();
                         continue;
                     }
                else if(select.equals("2")){
-                        System.out.println("请输入要私发的用户及消息，空格隔开");
+                        System.out.println("请输入要私发的用户及消息，用:隔开");
                         String message=in.next();
                         outputClient.write(message+"\n");
                         outputClient.flush();

@@ -35,8 +35,9 @@ public class ExecutorClient implements Runnable {
                 switch (select) {
                     case "1":{//注册
                         String message = in.next();
-                        String userName = message.split(" ")[0];
-                        this.register(userName);
+                        String userName = message.split("\\:")[0];
+                        String password=message.split("\\:")[1];
+                        this.register(userName,password);
                         break;
                     }
                     case "2":{//私聊
@@ -109,7 +110,7 @@ public class ExecutorClient implements Runnable {
     }
 
     //注册功能具体实现
-    private void register(String userName) {
+    private void register(String userName,String password) {
         ONLINE_USER.put(userName, this.currentClient);
         //数据库存储
         ClientsDAO clientsDAO = new ClientsDAO();
@@ -118,7 +119,7 @@ public class ExecutorClient implements Runnable {
         String flag = clientsDAO.search(userName);
         //第一次注册
         if (flag == null) {
-            clientsDAO.add(userName);
+            clientsDAO.add(userName,password);
             System.out.println("数据上传成功");
             sendMessage(userName, "注册成功!!!");
             System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());

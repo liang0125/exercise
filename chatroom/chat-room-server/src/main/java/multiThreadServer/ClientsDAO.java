@@ -39,14 +39,14 @@ public class ClientsDAO {
     }
 
     //添加客户端
-    public void add(String username){
+    public void add(String username,String password){
         Connection connection=null;
         Statement statement=null;
         ResultSet resultSet=null;
         try{
             connection = JDBCUtils.getConnection();
             statement = connection.createStatement();
-            String sql = "INSERT INTO allclients (name) VALUES('"+username+"');";
+            String sql = "INSERT INTO allclients (name,password) VALUES('"+username+"','"+password+"');";
             int num = statement.executeUpdate(sql);
             if(num>0){
                 System.out.println("send successful!");
