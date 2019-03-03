@@ -38,6 +38,28 @@ public class ClientsDAO {
         return null;
     }
 
+    public String searchPassword(String userName){
+        Connection conn=null;
+        Statement stmt=null;
+        ResultSet rs=null;
+        try{
+            conn = JDBCUtils.getConnection();
+            stmt = conn.createStatement();
+            String sql = "select * from allclients where allclients.name='"+userName+"';";
+            rs = stmt.executeQuery(sql);
+            if(rs.next()){
+                String clientPassword=rs.getString("password");
+                return clientPassword;
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            JDBCUtils.closed(conn,rs,stmt);
+        }
+        return null;
+    }
+
+
     //添加客户端
     public void add(String username,String password){
         Connection connection=null;

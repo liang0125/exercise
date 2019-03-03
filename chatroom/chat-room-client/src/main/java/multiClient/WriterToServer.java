@@ -68,7 +68,7 @@ public class WriterToServer implements Runnable{
     //菜单提示信息
     public void menu(){
         System.out.println("********      欢迎加入聊天室         *******");
-        System.out.println("*********  1.注册        2.私聊      *******");
+        System.out.println("*********  1.注册/登录   2.私聊      *******");
         System.out.println("*********  3.群聊        4.退出      *******");
         System.out.println("*******************************************");
 

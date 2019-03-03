@@ -31,23 +31,23 @@ public class ExecutorClient implements Runnable {
             Scanner in = new Scanner(currentClient.getInputStream());
 
             while (true) {
-                String  select = in.next();
+                String select = in.next();
                 switch (select) {
-                    case "1":{//注册
+                    case "1": {//注册
                         String message = in.next();
                         String userName = message.split("\\:")[0];
-                        String password=message.split("\\:")[1];
-                        this.register(userName,password);
+                        String password = message.split("\\:")[1];
+                        this.register(userName, password);
                         break;
                     }
-                    case "2":{//私聊
+                    case "2": {//私聊
                         String message = in.next();
                         String targetUser = message.split("\\:")[0];
                         String targetMessage = message.split("\\:")[1];
                         this.privateChat(targetUser, targetMessage);
                         break;
                     }
-                    case "3":{//群聊
+                    case "3": {//群聊
                         String message = in.next();
                         this.groupChat(message);
                         break;
@@ -57,9 +57,9 @@ public class ExecutorClient implements Runnable {
                         break;
                     }
                 }
-                   if (select.equals("4")){
+                if (select.equals("4")) {
                     break;
-                   }
+                }
 
             }
         } catch (IOException e) {
@@ -106,12 +106,11 @@ public class ExecutorClient implements Runnable {
             sendMessage(targetUserName, currentUserName + "(" + this.currentClient.getRemoteSocketAddress() + "):" + targetMessage);
 
         }
-        sendMessage(currentUserName,"发送成功");
+        sendMessage(currentUserName, "发送成功");
     }
 
     //注册功能具体实现
-    private void register(String userName,String password) {
-        ONLINE_USER.put(userName, this.currentClient);
+    private void register(String userName, String password) {
         //数据库存储
         ClientsDAO clientsDAO = new ClientsDAO();
 
@@ -119,15 +118,24 @@ public class ExecutorClient implements Runnable {
         String flag = clientsDAO.search(userName);
         //第一次注册
         if (flag == null) {
-            clientsDAO.add(userName,password);
-            System.out.println("数据上传成功");
+            clientsDAO.add(userName, password);
+            ONLINE_USER.put(userName, this.currentClient);
             sendMessage(userName, "注册成功!!!");
             System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());
         }
         //已经注册过的直接登录即可
         else {
-            sendMessage(userName, "登录成功!!!");
-            System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());
+            if (ONLINE_USER.containsKey(userName)) {
+                sendMessage(this.getCurrentClientName(), "该用户已登录!!!");
+            } else {
+                if (password == clientsDAO.searchPassword(userName)) {
+                    ONLINE_USER.put(userName, this.currentClient);
+                    sendMessage(userName, "登录成功!!!");
+                    System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());
+                } else {
+                    sendMessage(userName, "密码输入有误！！！");
+                }
+            }
         }
         this.printCurrentClient();
     }
