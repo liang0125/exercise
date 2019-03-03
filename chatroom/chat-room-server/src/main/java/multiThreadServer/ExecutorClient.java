@@ -102,11 +102,15 @@ public class ExecutorClient implements Runnable {
     //私聊功能具体实现
     private void privateChat(String targetUserName, String targetMessage) {
         String currentUserName = this.getCurrentClientName();
-        if (targetUserName != null) {
+        if (targetUserName == null) {
+            sendMessage(currentUserName, "没有此用户！！！");
+        } else if (!ONLINE_USER.containsKey(targetUserName)) {
+            sendMessage(currentUserName, "该用户不在线！！！");
+        } else {
             sendMessage(targetUserName, currentUserName + "(" + this.currentClient.getRemoteSocketAddress() + "):" + targetMessage);
 
+            sendMessage(currentUserName, "发送成功");
         }
-        sendMessage(currentUserName, "发送成功");
     }
 
     //注册功能具体实现
@@ -127,8 +131,9 @@ public class ExecutorClient implements Runnable {
         else {
             if (ONLINE_USER.containsKey(userName)) {
                 sendMessage(this.getCurrentClientName(), "该用户已登录!!!");
-            } else {
-                if (password == clientsDAO.searchPassword(userName)) {
+            }
+            else {
+                if (password.equals(clientsDAO.searchPassword(userName))) {
                     ONLINE_USER.put(userName, this.currentClient);
                     sendMessage(userName, "登录成功!!!");
                     System.out.println("用户" + userName + "加入聊天室" + this.currentClient.getRemoteSocketAddress());

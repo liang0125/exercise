@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="88e33054-a001-4513-87cd-22bac0b68a83" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise/src/main/java/com/github/liang/exercise/TestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/src/main/java/com/github/liang/exercise/TestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/src/main/java/memo/JDBCUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reflact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reflact/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,8 +54,8 @@
       <file leaf-file-name="MultiThreadServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +75,8 @@
       <file leaf-file-name="ExecutorClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
+            <state relative-caret-position="16">
+              <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -101,8 +99,8 @@
       <file leaf-file-name="ClientsDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+            <state relative-caret-position="438">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +123,7 @@
       <file leaf-file-name="ReadFromServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
+            <state relative-caret-position="425">
               <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="e#281#282#0" expanded="true" />
@@ -138,8 +136,8 @@
       <file leaf-file-name="WriterToServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="205">
+              <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
               <folding>
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#427#428#0" expanded="true" />
@@ -169,14 +167,14 @@
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/MultiThreadClient.java" />
-        <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java" />
         <option value="$PROJECT_DIR$/chat-room-client/pom.xml" />
         <option value="$PROJECT_DIR$/chat-room-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java" />
+        <option value="$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java" />
+        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java" />
       </list>
     </option>
@@ -447,7 +445,7 @@
       <workItem from="1551581698336" duration="1423000" />
       <workItem from="1551592855215" duration="249000" />
       <workItem from="1551601054198" duration="15000" />
-      <workItem from="1551607433729" duration="3112000" />
+      <workItem from="1551607433729" duration="6307000" />
     </task>
     <task id="LOCAL-00001" summary="多线程聊天室0.0.0">
       <created>1551017232084</created>
@@ -502,7 +500,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72133000" />
+    <option name="totallyTimeSpent" value="75328000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -524,8 +522,8 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.26407507" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" weight="0.24186705" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.261669" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.28248587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.46251768" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49798927" weight="0.281471" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.07506702" />
       <window_info anchor="right" id="Database" order="4" weight="0.40549597" />
@@ -901,41 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -967,10 +930,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/ReadFromServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/multiClient/WriterToServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/MultiThreadServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -979,18 +964,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ClientsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+        <state relative-caret-position="438">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/Clients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/multiThreadServer/ExecutorClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
+        <state relative-caret-position="16">
+          <caret line="136" column="38" lean-forward="true" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
         </state>
       </provider>
     </entry>

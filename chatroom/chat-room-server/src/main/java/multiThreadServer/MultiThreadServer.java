@@ -23,7 +23,7 @@ public class MultiThreadServer {
                 port=Integer.parseInt(args[0]);
             }
             ServerSocket serverSocket=new ServerSocket(port);
-            System.out.println("Server are Waiting clients to connect...");
+            System.out.println("等待客户端的连接...");
             while (true){
                 Socket client=serverSocket.accept();
                 executor.submit(new ExecutorClient(client));
