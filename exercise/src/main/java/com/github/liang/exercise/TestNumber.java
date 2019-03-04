@@ -24,7 +24,7 @@ public class TestNumber {
         if(isSpecial(str1+str2)){
             len++;
         }
-        for(int i=0;i<str1.length();i++){
+        for(int i=1;i<str1.length();i++){
             s1=str1.substring(0,i);
             s2=str1.substring(i);
             if(isSpecial(s1+str2+s2)){
@@ -37,7 +37,7 @@ public class TestNumber {
     public static boolean isSpecial(String str1){
         char[] arr=str1.toCharArray();
         int left=0;
-        int right=str1.length()-1;
+        int right=arr.length-1;
         while (left<=right){
             if(arr[left]==arr[right]){
                 left++;
