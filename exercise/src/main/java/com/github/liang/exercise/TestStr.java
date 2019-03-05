@@ -1,6 +1,4 @@
 package com.github.liang.exercise;
-
-import java.math.BigInteger;
 import java.util.Scanner;
 
 
