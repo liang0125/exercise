@@ -22,7 +22,6 @@ public class TestStr {
         if(str.length()==0){
             return "";
         }
-        int length=0;
         String st="";
         for(int i=0;i<str.length();i++) {
             for (int j = str.length(); j > i; j--) {
