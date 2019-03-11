@@ -2,6 +2,8 @@
  * Author:lorrie
  * Create:2019/3/11
  */
+
+import java.math.BigInteger;
 import java.util.*;
 
 /*
@@ -26,23 +28,38 @@ public class LCA {
 //        }
 //    }
 
-    public static int getLCA(int a, int b) {
-       while (a!=b){
-           if (a>b){
-               a=a/2;
-           }
-           else {
-               b=b/2;
-           }
-       }
-       return a;
+    //    public static int getLCA(int a, int b) {
+//       while (a!=b){
+//           if (a>b){
+//               a=a/2;
+//           }
+//           else {
+//               b=b/2;
+//           }
+//       }
+//       return a;
+//    }
+
+    /*
+    题目描述
+    1-100阶乘之和，由于越界，所以使用java的大数类即BigInteger类，其中multity()和add()方法很管用
+     */
+    public static BigInteger fac(int n) {
+        BigInteger rs=new BigInteger(String.valueOf(1));
+        BigInteger sum=new BigInteger(String.valueOf(0));
+        if (n == 0 || n == 1) {
+            return new BigInteger(String.valueOf(1));
+        } else {
+            for(int i=1;i<=n;i++) {
+                rs=rs.multiply(BigInteger.valueOf(i));
+                sum=sum.add(rs);
+            }
+        }
+        return sum;
     }
 
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        int a=in.nextInt();
-        int b=in.nextInt();
-        System.out.println(getLCA(a,b));
+        System.out.println(fac(100));
     }
 
     /*
