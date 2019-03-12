@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ccf6833-3a6f-489d-94e9-57d9c4cb3b53" name="Default" comment="" />
+    <list default="true" id="6ccf6833-3a6f-489d-94e9-57d9c4cb3b53" name="Default" comment="">
+      <change afterPath="I:/github仓库/JAVA/checkstand/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/.idea/dataSources/8fb7fb50-ff62-45dc-b8c3-4797846f04d8.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/dataSources/8fb7fb50-ff62-45dc-b8c3-4797846f04d8.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/misc.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/modules.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/checkstand.iml" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/com/bittch/checkstand/GoodsDAO.class" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/com/bittch/checkstand/JDBCUtils.class" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/com/bittch/checkstand/OrderDAO.class" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/com/bittch/checkstand/READ.md" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/out/production/checkstand/src/com/bittch/checkstand/READ.md" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/src/com/bittch/checkstand/GoodsDAO.java" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/src/com/bittch/checkstand/JDBCUtils.java" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/src/com/bittch/checkstand/OrderDAO.java" afterDir="false" />
+      <change afterPath="I:/github仓库/JAVA/checkstand/src/com/bittch/checkstand/READ.md" afterDir="false" />
+      <change beforePath="I:/Git/L_R/_config.yml" beforeDir="false" afterPath="I:/Git/L_R/_config.yml" afterDir="false" />
+      <change beforePath="I:/Git/L_R/source/_posts/hello-world.md" beforeDir="false" />
+      <change beforePath="I:/Git/L_R/themes/next" beforeDir="false" afterPath="I:/Git/L_R/themes/next" afterDir="false" />
+      <change beforePath="I:/github/Queue" beforeDir="false" />
+      <change beforePath="I:/github仓库/JAVA/_190310/.idea/workspace.xml" beforeDir="false" afterPath="I:/github仓库/JAVA/_190310/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/_190310/src/main/java/com/git/liang/Exercise.java" beforeDir="false" afterPath="I:/github仓库/JAVA/_190310/src/main/java/com/git/liang/Exercise.java" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/_190310/target/classes/com/git/liang/Exercise.class" beforeDir="false" afterPath="I:/github仓库/JAVA/_190310/target/classes/com/git/liang/Exercise.class" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/apple/.idea/workspace.xml" beforeDir="false" afterPath="I:/github仓库/JAVA/apple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/BuyApple.java" beforeDir="false" afterPath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/BuyApple.java" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/TestAB.java" beforeDir="false" afterPath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/TestAB.java" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/TestS.java" beforeDir="false" afterPath="I:/github仓库/JAVA/apple/src/main/java/com/github/liang/TestS.java" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/apple/target/classes/com/github/liang/BuyApple.class" beforeDir="false" afterPath="I:/github仓库/JAVA/apple/target/classes/com/github/liang/BuyApple.class" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/checkstand/goods.txt" beforeDir="false" />
+      <change beforePath="I:/github仓库/JAVA/checkstand/orders.txt" beforeDir="false" />
+      <change beforePath="I:/github仓库/JAVA/lac/.idea/workspace.xml" beforeDir="false" afterPath="I:/github仓库/JAVA/lac/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/memo/src/main/java/memo/JDBCUtil.java" beforeDir="false" afterPath="I:/github仓库/JAVA/memo/src/main/java/memo/JDBCUtil.java" afterDir="false" />
+      <change beforePath="I:/github仓库/JAVA/reflact/.idea/workspace.xml" beforeDir="false" afterPath="I:/github仓库/JAVA/reflact/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,31 +48,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleOrderCenter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleOrderCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleOrderCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1123">
-              <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+            <state relative-caret-position="660">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleOrderCenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.818/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java">
+      <file leaf-file-name="OrderDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/OrderDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsCenter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="-440">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,22 +93,68 @@
       <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="359">
+              <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/OrderCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2860">
+              <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="READ.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/READ.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="352">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.815/check_stand_plus/src/com/bittech/checkstand/plus/Order.java">
+      <file leaf-file-name="GoodsCenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="201">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -65,20 +162,8 @@
       <file leaf-file-name="SimpleGoodsCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-952">
-              <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="946">
+              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -92,16 +177,39 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>I:\github仓库\JAVA</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="I:/" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/View.java" />
-        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/Goods.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/HZ$D.191.439/HZ$D.191.440/src/com/github/nodonotnodo/checkStand/Order.java" />
         <option value="$PROJECT_DIR$/src/com/bittch/checkstand/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/GoodsDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/OrderDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/GoodsCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/OrderCenter.java" />
         <option value="$PROJECT_DIR$/src/com/bittch/checkstand/SimpleOrderCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/READ.md" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/View.java" />
+        <option value="$PROJECT_DIR$/src/com/bittch/checkstand/.gitignore" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -109,12 +217,12 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,14 +232,23 @@
             </path>
             <path>
               <item name="checkstand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkstand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="checkstand" type="58d84e3e:PackageViewProjectNode" />
+              <item name="checkstand" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="checkstand" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkstand" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="checkstand" type="462c0819:PsiDirectoryNode" />
+              <item name="checkstand" type="58d84e3e:PackageViewProjectNode" />
+              <item name="checkstand" type="616d4139:PackageViewModuleNode" />
+              <item name="com.bittch.checkstand" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -142,8 +259,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/com/bittch/checkstand/.gitignore" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="I:/github仓库/JAVA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,30 +366,46 @@
       <workItem from="1548425636539" duration="1431000" />
       <workItem from="1548469468155" duration="5238000" />
       <workItem from="1548494684060" duration="20497000" />
-      <workItem from="1548555586184" duration="8661000" />
+      <workItem from="1548555586184" duration="9625000" />
+      <workItem from="1549853309588" duration="689000" />
+      <workItem from="1551497726462" duration="1013000" />
+      <workItem from="1551786556170" duration="5605000" />
+      <workItem from="1551792206144" duration="14231000" />
+      <workItem from="1551938169645" duration="2892000" />
+      <workItem from="1551948058458" duration="863000" />
+      <workItem from="1552103938149" duration="610000" />
+      <workItem from="1552365392849" duration="5835000" />
     </task>
+    <task id="LOCAL-00001" summary="超市小助手">
+      <created>1552370643885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552370643885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40386000" />
+    <option name="totallyTimeSpent" value="73088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27259886" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.32956153" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1266756" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13873994" />
+      <window_info anchor="right" id="Database" order="4" weight="0.21514745" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -275,104 +416,47 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13538875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45903954" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.21514745" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="超市小助手" />
+    <option name="LAST_COMMIT_MESSAGE" value="超市小助手" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.815/check_stand_plus/src/com/bittech/checkstand/plus/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleOrderCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleOrderCenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -384,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,11 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,11 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,11 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,25 +549,9 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.700.1857/HZ$D.700.1859/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.338.3302/HZ$D.338.3303/check_stand_plus/src/com/bittech/checkstand/plus/GoodsCenter.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.338.3302/HZ$D.338.3304/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleGoodsCenter.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.814/check_stand_plus/src/com/bittech/checkstand/plus/OrderCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.816/check_stand_plus/src/com/bittech/checkstand/plus/GoodsCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.533.2432/HZ$D.533.2433/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.814/check_stand_plus/src/com/bittech/checkstand/plus/OrderCenter.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.816/check_stand_plus/src/com/bittech/checkstand/plus/GoodsCenter.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.533.2432/HZ$D.533.2433/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -515,89 +559,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.817/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleGoodsCenter.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.817/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleGoodsCenter.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.375.2867/HZ$D.375.2869/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleGoodsCenter.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.818/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.815/check_stand_plus/src/com/bittech/checkstand/plus/Order.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        <state relative-caret-position="88">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.191.439/HZ$D.191.440/src/com/github/nodonotnodo/checkStand/Order.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.191.439/HZ$D.191.441/src/com/github/nodonotnodo/checkStand/SimpleOrderCenter.java" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/check_stand_plus/src/com/bittech/checkstand/plus/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/2447640268/FileRecv/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="65" column="47" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="201">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/GoodsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="359">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.375.2867/HZ$D.375.2868/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.375.2867/HZ$D.375.2869/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleGoodsCenter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/OrderCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-857">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="169">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/OrderDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="-440">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.818/check_stand_plus/src/com/bittech/checkstand/plus/impl/SimpleOrderCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleGoodsCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="946">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.716.813/HZ$D.716.815/check_stand_plus/src/com/bittech/checkstand/plus/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/SimpleOrderCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        <state relative-caret-position="660">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/READ.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bittch/checkstand/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>checkstand</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
