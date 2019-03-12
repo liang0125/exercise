@@ -1,8 +1,4 @@
 package com.bittch.checkstand;
-
-import com.bittch.checkstand.SimpleGoodsCenter;
-import com.bittch.checkstand.SimpleOrderCenter;
-
 import java.util.Scanner;
 
 /**
@@ -24,8 +20,8 @@ public class View {
 
     public static void helpInfo() {
         System.out.println("*************** 欢迎使简易收银台 *****************");
-        System.out.println("       [U] 使用 [S] 设置 [P] 保存 [A] 关于 [Q] 退出");
-        System.out.println("       输入:  U S P A Q 进入操作                    ");
+        System.out.println(" [admin] 管理员 [normal] 普通买家 [A] 关于 [quit] 退出");
+        System.out.println("       输入相应内容进入操作                    ");
         System.out.println("*************************************************");
     }
 
@@ -40,9 +36,9 @@ public class View {
         System.out.println("******************** 关于 ***********************");
         System.out.println("        名称：简易收银台                          ");
         System.out.println("        功能：基于字符界面的收银台操作系统          ");
-        System.out.println("        作者: secondriver                        ");
+        System.out.println("        作者: lorrie                        ");
         System.out.println("        版本: v1.0.0                          ");
-        System.out.println("        意见反馈：secondriver@yeah.net            ");
+        System.out.println("        意见反馈：liangrui_1126@163.co       ");
         System.out.println("*************************************************");
     }
 
@@ -64,10 +60,9 @@ public class View {
 
     public static void usage() {
         //创建订单，并且添加到订单管理中心
-        Order order = new Order(String.valueOf(++orderId));
+        Order order = new Order(++orderId);
         orderCenter.addOrder(order);
         usageInfo();
-        System.out.println(orderCenter.orderTable(order.getOrderId()));
         while (true) {
             String line = scanner.nextLine();
             switch (line.trim().toUpperCase()) {
@@ -80,11 +75,12 @@ public class View {
                     String value = scanner.nextLine();
                     String[] infoArray = value.split(" ");
                     if (infoArray.length == 2) {
-                        Goods goods = goodsCenter.getGoods(infoArray[0]);
+                        Goods goods = goodsCenter.getGoods(Integer.parseInt(infoArray[0]));
                         if (goods != null) {
-                            order.add(infoArray[0], Integer.parseInt(infoArray[1]));
+                            order.add(Integer.parseInt(infoArray[0]), Integer.parseInt(infoArray[1]));
 
                             System.out.println(orderCenter.orderTable(order.getOrderId()));
+                            usageInfo();
                             break;
                         }
                     }
@@ -96,9 +92,9 @@ public class View {
                     String value = scanner.nextLine();
                     String[] infoArray = value.split(" ");
                     if (infoArray.length == 2) {
-                        Goods goods = goodsCenter.getGoods(infoArray[0]);
+                        Goods goods = goodsCenter.getGoods(Integer.parseInt(infoArray[0]));
                         if (goods != null) {
-                            order.cancel(infoArray[0], Integer.parseInt(infoArray[1]));
+                            order.cancel(Integer.valueOf(infoArray[0]), Integer.parseInt(infoArray[1]));
                             System.out.println(orderCenter.orderTable(order.getOrderId()));
                             break;
                         }
@@ -194,48 +190,65 @@ public class View {
         String[] infoArray = value.split(" ");
         if (infoArray.length == 3 || infoArray.length == 1) {
             if (infoArray.length == 3) {
-                Goods goods = new Goods(infoArray[0], infoArray[1], Double.parseDouble(infoArray[2]));
+                Goods goods = new Goods(Integer.parseInt(infoArray[0]), infoArray[1], Double.parseDouble(infoArray[2]));
                 return goods;
             }
-            Goods goods = new Goods(infoArray[0], "", 0.0D);
+            Goods goods = new Goods(Integer.parseInt(infoArray[0]), "", 0.0D);
             return goods;
         }
         return null;
     }
 
     public static void main(String[] args) {
-        helpInfo();
-        //初始化加载文件信息
-        goodsCenter.load();
-        orderCenter.loadOrders();
-        while (true) {
-            System.out.println("请输入:");
-            String line = scanner.nextLine();
-            switch (line.trim().toUpperCase()) {
-                case "U":
-                    usage();
-                    helpInfo();
-                    break;
-                case "S":
-                    setting();
-                    helpInfo();
-                    break;
-                case "A":
-                    about();
-                    break;
-                case "P":
-                    //商品信息保存
-                    goodsCenter.store();
-                    //订单信息保存
-                    orderCenter.storeOrders();
-                    break;
-                case "Q":
-                    quit();
-                    break;
-                default:
-                    helpInfo();
+
+        while (true){
+            helpInfo();
+            System.out.println("请选择登录类型：");
+            String line=scanner.nextLine();
+            if(line.trim().toLowerCase().equals("admin")){
+                setting();
+            }
+            else if (line.trim().toLowerCase().equals("normal")){
+                usage();
+            }
+            else if (line.trim().toLowerCase().equals("quit")){
+                break;
+            }
+            else {
+                System.out.println("没有此类型！");
             }
         }
+//        //初始化加载文件信息
+//        goodsCenter.load();
+//        orderCenter.loadOrders();
+//        while (true) {
+//            System.out.println("请输入:");
+//            String line = scanner.nextLine();
+//            switch (line.trim().toUpperCase()) {
+//                case "U":
+//                    usage();
+//                    helpInfo();
+//                    break;
+//                case "S":
+//                    setting();
+//                    helpInfo();
+//                    break;
+//                case "A":
+//                    about();
+//                    break;
+//                case "P":
+////                    //商品信息保存
+////                    goodsCenter.store();
+//                    //订单信息保存
+//                    orderCenter.storeOrders();
+//                    break;
+//                case "Q":
+//                    quit();
+//                    break;
+//                default:
+//                    helpInfo();
+//            }
+//        }
     }
 
 }

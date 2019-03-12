@@ -5,13 +5,14 @@ package com.bittch.checkstand;
  * Create:2019/1/11
  */
 public class Goods {
-    public Goods(String id, String name, double price) {
+    public Goods(){}
+    public Goods(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
     }
 
-    private String id;
+    private int id;
     private String name;
     private double price;
 
@@ -24,11 +25,11 @@ public class Goods {
                 '}';
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 

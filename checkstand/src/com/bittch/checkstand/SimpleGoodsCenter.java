@@ -1,8 +1,7 @@
 package com.bittch.checkstand;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Author:lorrie
@@ -15,32 +14,48 @@ public class SimpleGoodsCenter implements GoodsCenter {
     private static String path=System.getProperty("user.dir")+File.separator+"goods.txt";
     @Override
     public void addGoods(Goods goodsInfo) {
-        this.goodsMap.put(goodsInfo.getId(),goodsInfo);
+       this.goodsMap.put(String.valueOf(goodsInfo.getId()),goodsInfo);
+        GoodsDAO goodsDAO=new GoodsDAO();
+        goodsDAO.add(goodsInfo.getId(),goodsInfo.getName(),goodsInfo.getPrice());
     }
 
     @Override
-    public void removeGoods(String id) {
+    public void removeGoods(int id) {
         this.goodsMap.remove(id);
+        GoodsDAO goodsDAO=new GoodsDAO();
+        goodsDAO.delete(id);
     }
 
     @Override
     public void updateGoods(Goods goods) {
         if(this.goodsMap.containsKey(goods.getId())){
-            this.goodsMap.put(goods.getId(),goods);
+            this.goodsMap.put(String.valueOf(goods.getId()),goods);
+        }
+        GoodsDAO goodsDAO=new GoodsDAO();
+        if(goodsDAO.search(goods.getId())!=null){
+            goodsDAO.delete(goods.getId());
+            goodsDAO.add(goods.getId(),goods.getName(),goods.getPrice());
+        }
+        else {
+            System.out.println("该商品不存在");
         }
     }
 
     @Override
-    public boolean isExistGoods(String id) {
-        if(this.goodsMap.containsKey(id)){
+    public boolean isExistGoods(int id) {
+        GoodsDAO goodsDAO=new GoodsDAO();
+        if(goodsDAO.search(id)!=null){
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
     }
 
     @Override
-    public Goods getGoods(String goodsId) {
-        return this.goodsMap.get(goodsId);
+    public Goods getGoods(int goodsId) {
+        GoodsDAO goodsDAO=new GoodsDAO();
+        return goodsDAO.search(goodsId);
     }
 
     @Override
@@ -48,50 +63,15 @@ public class SimpleGoodsCenter implements GoodsCenter {
         StringBuilder sb=new StringBuilder();
         sb.append("*************商品信息************\n");
         sb.append("\t\t商品编号\t商品名称\t商品价格\n");
-        for(Map.Entry<String,Goods> entry:this.goodsMap.entrySet()){
-
-           Goods goods=entry.getValue();
-           sb.append(String.format("\t\t%s\t%s\t%.2f\n",goods.getId(),goods.getName(),goods.getPrice()));
+        GoodsDAO goodsDAO=new GoodsDAO();
+        if(goodsDAO.searchAll()!=null){
+            List<Goods> list=goodsDAO.searchAll();
+            Iterator<Goods> iterator=list.iterator();
+            while (iterator.hasNext()){
+                Goods goods=iterator.next();
+                sb.append(String.format("\t\t%s\t%s\t%.2f\n",goods.getId(),goods.getName(),goods.getPrice()));
+            }
         }
-        sb.append("***********************************\n");
         return sb.toString();
-    }
-
-    @Override
-    public void store() {
-        //保存信息到文件
-        File file=new File(path);
-        try (BufferedWriter Writer = new BufferedWriter(new FileWriter(file))) {
-            for(Map.Entry<String,Goods> entry:goodsMap.entrySet()){
-                Goods goods=entry.getValue();
-                Writer.write(String.format("%s:%s:%.2f\n",goods.getId(),goods.getName(),goods.getPrice()));
-            }
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-
-    @Override
-    public void load() {
-        File file=new File(path);
-        if(file.exists()&&file.isFile()) {
-            try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-                    String line;
-                    while ((line = reader.readLine()) != null) {
-                        String[] st = line.split(":");
-                        if (st.length == 3) {
-                            String id=st[0];
-                            String name=st[1];
-                            Double price=Double.parseDouble(st[2]);
-                            this.goodsMap.put(id,new Goods(id,name,price));
-                        }
-                    }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        else{
-            System.out.println("请按照格式输入");
-        }
     }
 }

@@ -6,11 +6,9 @@ package com.bittch.checkstand;
  */
 public interface GoodsCenter {
      void addGoods(Goods goods);
-     void removeGoods(String id);
+     void removeGoods(int id);
      void updateGoods(Goods goods);
-     boolean isExistGoods(String id);
-     Goods getGoods(String goods);
+     boolean isExistGoods(int id);
+     Goods getGoods(int goods);
      String listGoods();
-     void store();
-     void load();
 }

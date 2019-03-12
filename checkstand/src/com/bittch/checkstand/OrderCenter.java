@@ -8,7 +8,6 @@ public interface OrderCenter {
     void addOrder(Order order);
     void removeOrder(Order order);
     String ordersTable();
-    String orderTable(String ordertable);
-    void storeOrders();
-    void loadOrders();
+    String orderTable(Integer orderId);
+
 }
