@@ -25,7 +25,7 @@ public class BuyApple {
 
     /*
     题目描述
-    对字符串进行反转
+    对字符串进行反转     时间复杂度必须为O（n）
     并且每个字符大小写互换
     例如：
     输入：Hello World

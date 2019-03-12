@@ -7,6 +7,9 @@ import java.sql.*;
  * Create:2019/2/25
  */
 public class JDBCUtil {
+    private static Connection connection;
+    private static Statement statement;
+    private static ResultSet resultSet;
     public static void main(String[] args) {
         try {
 
@@ -14,24 +17,22 @@ public class JDBCUtil {
             Class.forName("com.mysql.jdbc.Driver");
 
             //2.建立连接
-            String url="jdbc:mysql://localhost:3306/memo";
+            String url="jdbc:mysql://localhost:3306/chatroom";
             String user="root";
             String password="123456";
-            Connection connection=DriverManager.getConnection(url,user,password);
+            connection=DriverManager.getConnection(url,user,password);
 
             //3.创建操作命令
-            Statement statement=connection.createStatement();
+             statement=connection.createStatement();
 
             //4.执行sql语句
-            ResultSet resultSet=statement.executeQuery("select id,group_id,title,content,is_protected, background,is_remind,remind_time,created_time,modify_time from memo_info");
+            resultSet=statement.executeQuery("select id,name from allClients");
 
             //5.处理结果集
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
-                String title = resultSet.getString("title");
-                String content = resultSet.getString("content");
-                Date createTime = resultSet.getDate("created_time");
-                System.out.println(String.format("Memo: id=%d, title=%s, content=%s, createTime=%s", id, title, content, createTime.toString()));
+                String name = resultSet.getString("name");
+                System.out.println(String.format("Memo: id=%d, name=%s", id, name));
             }
 
             //关闭结果集
