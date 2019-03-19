@@ -7,8 +7,6 @@ import java.sql.*;
  * Create:2019/2/25
  */
 public class JDBCUtils {
-    private static Statement statement;
-    private static ResultSet resultSet;
 
     public static Connection getConnection() {
         Connection connection = null;
@@ -32,12 +30,12 @@ public class JDBCUtils {
     public static void closed(Connection connection, Statement statement) {
         try {
             if (statement!=null) {
-                statement.close();
                 statement=null;
+                statement.close();
             }
             if (connection != null) {
-                connection.close();
                 connection=null;
+                connection.close();
             }
         }catch(SQLException e){
             e.printStackTrace();
@@ -47,8 +45,8 @@ public class JDBCUtils {
     public static void closed(Connection connection, ResultSet resultSet, Statement statement) {
             if(resultSet!=null){
                 try {
-                    resultSet.close();
                     resultSet=null;
+                    resultSet.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
